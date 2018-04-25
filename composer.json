@@ -1,0 +1,22 @@
+{
+    "name": "fiolasoft/coding-standard",
+    "description": "Strict coding standards for our PHP projects",
+    "keywords": ["codesniffer", "strict", "php"],
+    "type": "library",
+    "homepage": "https://github.com/FiolaSoft/coding-standard",
+    "require": {
+        "php": ">=7.1",
+        "doctrine/coding-standard": "^4.0"
+    },
+    "license": "MIT",
+    "support": {
+        "email": "vojtech.mares@fiolasoft.cz",
+        "issues": "https://github.com/FiolaSoft/coding-standard/issues"
+    },
+    "authors": [
+        {
+            "name": "Vojtěch Mareš",
+            "email": "ja@vojtamares.cz"
+        }
+    ]
+}

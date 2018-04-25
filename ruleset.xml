@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="FiolaSoft">
+    <!-- Heavily inspired by ninjify/coding-standard <3 -->
+    <description>FiolaSoft/CodingStandard - Our coding-standard for our projects</description>
+    <!-- ########################################################################################################### -->
+    <!-- Doctrine Coding Standard -->
+    <!-- ########################################################################################################### -->
+    <rule ref="./../../doctrine/coding-standard/lib/Doctrine/ruleset.xml"></rule>
+</ruleset>

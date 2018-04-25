@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="FiolaSoft [Nette]">
+
+    <!-- This nette ruleset is heavily based on ninjify/coding-standard ruleset-nette.xml -->
+
+    <!-- ########################################################################################################### -->
+    <!-- FiolaSoft Coding Standard -->
+    <!-- ########################################################################################################### -->
+    <rule ref="./ruleset.xml"/>
+
+    <!-- ########################################################################################################### -->
+    <!-- FiolaSoft [Nette] Coding Standard -->
+    <!-- ########################################################################################################### -->
+    <rule ref="PSR1.Classes.ClassDeclaration.MultipleClasses">
+        <exclude-pattern>*/tests/*</exclude-pattern>
+    </rule>
+    <rule ref="Squiz.Classes.ClassFileName">
+        <exclude-pattern>*/tests/*</exclude-pattern>
+    </rule>
+</ruleset>
