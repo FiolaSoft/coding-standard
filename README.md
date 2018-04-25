@@ -1,6 +1,6 @@
 # Coding standard
 
-Tuned & very strict coding standards for PHP projects
+This is based on [doctrine/coding-standard](https://github.com/doctrine/coding-standard/) and heavily inspired by [ninjify/coding-standard](https://github.com/ninjify/coding-standard/)
 
 -----
 
@@ -13,23 +13,18 @@ Tuned & very strict coding standards for PHP projects
 composer require --dev fiolasoft/coding-standard
 ```
 
-## Strictness
-
-| File          | Strictness |
-|---------------|------------|
-| ruleset       | strict     |
-| ruleset-nette | 90%        |
-
 ## Usage
 
 Create `ruleset.xml` in root of your project.
+
+**NOTE:** It is recommanded to use this with [FiolaSoft/qa](https://github.com/FiolaSoft/qa)
 
 ```
 <?xml version="1.0"?>
 <ruleset name="YourProject">
     <!-- Extending rulesets -->
     <rule ref="vendor/fiolasoft/coding-standard/ruleset.xml"/>
-    <!-- Ninjify [Nette] -->
+    <!-- FiolaSoft [Nette] -->
     <!-- <rule ref="vendor/fiolasoft/coding-standard/ruleset-nette.xml"/> -->
 
     <!-- My rules -->
