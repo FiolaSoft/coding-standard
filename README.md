@@ -24,6 +24,9 @@ Create `ruleset.xml` in root of your project.
 <ruleset name="YourProject">
     <!-- Extending rulesets -->
     <rule ref="vendor/fiolasoft/coding-standard/ruleset.xml"/>
+    
+    <!-- OR (not both, since ruleset.xml is included in ruleset-nette.xml) -->
+    
     <!-- FiolaSoft [Nette] -->
     <!-- <rule ref="vendor/fiolasoft/coding-standard/ruleset-nette.xml"/> -->
 
